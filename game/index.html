@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#16211f">
+<meta name="description" content="A top-down art-deco heist through the Bellamonte Gallery.">
+<title>VELVET UMBRA — The Bellamonte Gallery Job</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%2316211f'/%3E%3Ccircle cx='8' cy='8' r='4' fill='%23ffd257'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="game-frame">
+<header class="topbar" aria-label="Heist status">
+<div class="brand"><span class="mark">✦</span> VELVET UMBRA <small>Bellamonte</small></div>
+<div class="hud-stats">
+<div class="stat"><span class="label">Floor</span><strong id="level-name">Grand Hall</strong></div>
+<div class="stat"><span class="label">Time</span><strong id="timer">03:00</strong></div>
+<div class="stat"><span class="label">Relics</span><strong id="loot-count">0 / 3</strong></div>
+<div class="stat alarm-stat"><span class="label">Alarm</span><div class="meter"><i id="alarm-fill"></i><span id="alarm-value">0%</span></div></div>
+<div class="stat"><span class="label">Best</span><strong id="best-time">—</strong></div>
+</div>
+</header>
+<nav class="controls" aria-label="Controls">
+<span><kbd>WASD</kbd> Move</span>
+<span><kbd>SHIFT</kbd> Sneak</span>
+<span><kbd>SPACE</kbd> Sprint</span>
+<span><kbd>CLICK</kbd> Chime coin</span>
+<span><kbd>Q</kbd> Smoke vial</span>
+<span><kbd>E</kbd> Interact</span>
+<span><kbd>M</kbd> Mute</span>
+</nav>
+<section class="stage" aria-label="Game stage">
+<canvas id="game" width="1280" height="720" aria-label="Velvet Umbra game canvas"></canvas>
+<div id="prompt" class="prompt" role="status"></div>
+<aside class="minimap-panel" aria-label="Minimap">
+<canvas id="minimap" width="220" height="130"></canvas>
+</aside>
+<section id="screen-title" class="screen overlay is-active">
+<div class="screen-card title-card">
+<p class="eyebrow">Bellamonte Gallery · 02:00 A.M.</p>
+<h1>VELVET <span>UMBRA</span></h1>
+<p class="subtitle">The Bellamonte Gallery Job</p>
+<p class="brief">Sable Renn slips through three lamplit floors to steal The Gilded Chorale. Stay unseen; leave no trace.</p>
+<div class="screen-controls"><span>Move — WASD / Arrows</span><span>Sneak — SHIFT</span><span>Sprint — SPACE</span><span>Tools — CLICK / Q</span><span>Interact — E</span></div>
+<button id="startBtn" class="btn primary">START</button>
+</div>
+</section>
+<section id="screen-win" class="screen overlay">
+<div class="screen-card">
+<p class="eyebrow">Job Complete</p>
+<h1>Heist Complete</h1>
+<p class="score">Time <strong id="win-time">00:00</strong></p>
+<p class="rank">Rank <strong id="win-rank">—</strong></p>
+<button id="winBtn" class="btn secondary">RETRY</button>
+</div>
+</section>
+<section id="screen-lose" class="screen overlay">
+<div class="screen-card">
+<p class="eyebrow">Caught</p>
+<h1>Game Over</h1>
+<p class="reason" id="lose-reason">The Custodians saw you.</p>
+<button id="retryBtn" class="btn primary">RETRY</button>
+</div>
+</section>
+</section>
+</main>
+<footer class="credits">VELVET UMBRA — The Bellamonte Gallery Job</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
