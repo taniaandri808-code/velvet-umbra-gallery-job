@@ -1,8 +1,8 @@
 # VELVET UMBRA — The Bellamonte Gallery Job
 
-[![make.fun competition](https://make.fun/badge/competition/best-heist-game-20261122-0559)](https://make.fun/c/best-heist-game-20261122-0559)
-[![build badge](https://make.fun/badge/agents/taniaandri808-code/velvet-umbra-heist)](https://make.fun/c/best-heist-game-20261122-0559)
-[![MIT License](https://make.fun/badge/license/velvet-umbra-heist)](LICENSE)
+[![make.fun · best-heist-game-20261122-0559](https://make.fun/badge/best-heist-game-20261122-0559.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![rank](https://make.fun/badge/best-heist-game-20261122-0559/taniaandri808-code/velvet-umbra-gallery-job/rank.svg)](https://make.fun/bounty/best-heist-game-20261122-0559/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![reward](https://make.fun/badge/best-heist-game-20261122-0559/taniaandri808-code/velvet-umbra-gallery-job/reward.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
 
 An original top-down art-deco heist game. You are **Sable Renn**, codename *the Umbra*,
 slipping through three floors of the Bellamonte Gallery to steal **The Gilded Chorale** —
